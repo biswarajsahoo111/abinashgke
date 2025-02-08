@@ -1,0 +1,9 @@
+# Rename this file to terraform.tfvars and update the values
+project_id    = "your-project-id"
+region        = "us-central1"
+subnet_cidr   = "10.0.0.0/24"
+pod_cidr      = "10.1.0.0/16"
+service_cidr  = "10.2.0.0/16"
+node_count    = 3
+machine_type  = "e2-medium"
+disk_size_gb  = 100
